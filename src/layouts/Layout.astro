@@ -6,12 +6,12 @@ interface Props {
   description?: string;
 }
 
-const { title, description = "TaleBerry — çocuklar için sıcacık hikaye kitapları." } = Astro.props;
+const { title, description = "TaleBerry — warm storybooks for kids." } = Astro.props;
 const siteName = "TaleBerry";
 ---
 
 <!doctype html>
-<html lang="tr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,7 +36,7 @@ const siteName = "TaleBerry";
       <nav class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
         <a href="/" class="font-heading text-xl font-700 text-coral-dark">🍓 TaleBerry</a>
         <div class="flex items-center gap-6 text-sm font-600 text-ink-soft">
-          <a href="/" class="hover:text-coral-dark transition-colors">Kitaplar</a>
+          <a href="/" class="hover:text-coral-dark transition-colors">Books</a>
           <a href="/blog" class="hover:text-coral-dark transition-colors">Blog</a>
         </div>
       </nav>
@@ -48,8 +48,8 @@ const siteName = "TaleBerry";
 
     <footer class="border-t border-line mt-16">
       <div class="mx-auto max-w-5xl px-6 py-10 text-sm text-ink-soft flex flex-col sm:flex-row items-center justify-between gap-3">
-        <p>© {new Date().getFullYear()} TaleBerry. Tüm hakları saklıdır.</p>
-        <p>Sıcacık hikayeler, güvenle büyüyen çocuklar için.</p>
+        <p>© {new Date().getFullYear()} TaleBerry. All rights reserved.</p>
+        <p>Warm stories for kids growing up with confidence.</p>
       </div>
     </footer>
   </body>

@@ -1,46 +1,51 @@
 ---
-title: "5 Sakinleşme Köşesi Aktivitesi ile Çocuklar Duygularını Nasıl Yönetir?"
-description: "Çocuğunuzun öfke veya kaygı anında kendini sakinleştirmesine yardımcı olacak, evde kolayca uygulayabileceğiniz 5 basit aktivite."
+title: "5 Calm Corner Activities That Help Kids Manage Big Feelings"
+description: "Five simple activities you can set up at home today to help your child calm down during moments of anger or anxiety."
 pubDate: 2026-08-24
-tags: ["sakinleşme köşesi", "duygu yönetimi", "öfke kontrolü"]
+tags: ["calm corner", "emotional regulation", "anger management"]
 relatedProduct: ""
 ---
 
-Her çocuk zaman zaman duygularının altında kalır — bir oyuncak elinden alınır, bir tower yıkılır,
-ya da sadece gün çok uzun sürmüştür. Bu anlarda çocuğa "sakin ol" demek nadiren işe yarar. Onun
-yerine, çocuğun kendi başına başvurabileceği somut bir **sakinleşme köşesi** kurmak çok daha etkili.
+Every child gets overwhelmed by their feelings sometimes — a toy gets taken away, a block
+tower falls, or the day has just been too long. In these moments, telling a child to "calm
+down" rarely works. What works much better is giving them a **calm corner**: a real, physical
+place they can turn to on their own.
 
-İşte evde bugün uygulayabileceğiniz 5 basit aktivite:
+Here are 5 simple activities you can start using at home today:
 
-## 1. Yıldız Nefesi (Star Breathing)
+## 1. Star Breathing
 
-Elini açık bir yıldız gibi tutup, diğer elinin parmağıyla her bir ucun kenarını yavaşça takip
-ederken nefes alıp vermesini isteyin — yukarı çıkarken nefes al, aşağı inerken nefes ver. Görsel
-ve dokunsal olduğu için küçük çocuklar için soyut "derin nefes al" talimatından çok daha kolay.
+Have your child hold up one hand like an open star, then trace each point slowly with a
+finger from the other hand — breathe in going up, breathe out coming down. Because it's
+visual and hands-on, it's much easier for young kids to follow than an abstract "take a
+deep breath."
 
-## 2. Sıkma ve Bırakma (Squeeze & Release)
+## 2. Squeeze & Release
 
-Ellerini sıkıca yumruk yapıp 5 saniye tutmasını, sonra aniden gevşetmesini isteyin. Bu basit
-kas gevşetme tekniği, vücuttaki gerginliğin nereye gittiğini fiziksel olarak hissettirir.
+Ask your child to clench their fists tightly for 5 seconds, then suddenly let go. This
+simple muscle-relaxation trick lets them physically feel where tension in the body goes —
+and where it releases.
 
-## 3. Duygu Kartları (Feeling Chart)
+## 3. The Feeling Chart
 
-Basit yüz ifadeleri çizilmiş küçük kartlar hazırlayın: kızgın, üzgün, heyecanlı, sakin. Çocuğun
-o an hissettiğini gösteren kartı seçmesini isteyin. Bunu söze dökmek bazen konuşmaktan kolaydır.
+Prepare a few small cards with simple facial expressions: angry, sad, excited, calm. Ask
+your child to point to the card that matches how they feel right now. Sometimes pointing is
+easier than finding the words.
 
-## 4. Beş Adımlı Sakinleşme Döngüsü
+## 4. The Five-Step Calm Cycle
 
-Bu, TaleBerry'nin ilk kitabı **Ari's Calm Corner**'ın da temelini oluşturan çerçeve:
-**Fark Et → İsimlendir → Seç → Sakinleş → Geri Dön.** Çocuk önce ne hissettiğini fark eder,
-sonra bu duyguya bir isim verir, kendine bir sakinleşme aktivitesi seçer, o aktiviteyi yapar ve
-hazır olduğunda oyuna/duruma geri döner. Önemli olan: bu bir ceza değil, bir araçtır.
+This is the same framework behind TaleBerry's first book, **Ari's Calm Corner**:
+**Notice → Name → Choose → Calm → Return.** The child first notices what they're feeling,
+gives that feeling a name, picks a calming activity for themselves, does it, and returns to
+play or the situation once ready. The key idea: this is a tool, not a punishment.
 
-## 5. "Bana Alan Ver" Kartı
+## 5. The "I Need Space" Card
 
-Bazı çocuklar konuşmak yerine bir işaret kullanmayı tercih eder. Basit bir kart üzerine "Bana
-biraz alan ver" yazıp çocuğun ihtiyaç duyduğunda size gösterebileceği bir yöntem haline getirin.
+Some kids would rather show a signal than talk. Write "I need some space" on a simple card
+so your child has a way to let you know when they need a moment — without having to say it
+out loud.
 
 ---
 
-Bu beş adımı hikaye üzerinden, eğlenceli ve baskı hissettirmeyen bir şekilde anlatmak istiyorsanız,
-Ari'nin kendi sakinleşme köşesini keşfettiği hikayesine göz atabilirsiniz.
+If you'd like to introduce these five steps through a warm, pressure-free story, take a look
+at Ari's own journey discovering their calm corner.

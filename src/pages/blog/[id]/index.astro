@@ -29,7 +29,7 @@ const relatedProduct = post.data.relatedProduct
 <Layout title={post.data.title} description={post.data.description}>
   <article class="mx-auto max-w-2xl px-6 pt-16 pb-20">
     <p class="text-xs text-ink-soft">
-      {post.data.pubDate.toLocaleDateString("tr-TR", { year: "numeric", month: "long", day: "numeric" })}
+      {post.data.pubDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
     </p>
     <h1 class="font-heading text-3xl sm:text-4xl font-700 text-ink mt-2">{post.data.title}</h1>
 
@@ -52,9 +52,9 @@ const relatedProduct = post.data.relatedProduct
           <img src={relatedProduct.coverImage} alt={relatedProduct.name} class="w-16 h-20 object-cover rounded-lg" />
         )}
         <div>
-          <p class="text-xs text-ink-soft">Bu yazının ilham kaynağı</p>
+          <p class="text-xs text-ink-soft">The book behind this story</p>
           <p class="font-heading text-ink">{relatedProduct.name}</p>
-          <p class="text-coral-dark font-700 text-sm">{relatedProduct.formattedPrice} — hemen incele →</p>
+          <p class="text-coral-dark font-700 text-sm">{relatedProduct.formattedPrice} — take a look →</p>
         </div>
       </a>
     )}

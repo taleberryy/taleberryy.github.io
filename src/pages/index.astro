@@ -14,23 +14,23 @@ interface Product {
 const items = products as Product[];
 ---
 
-<Layout title="Çocuklar için sıcacık hikaye kitapları">
+<Layout title="Warm storybooks for kids">
   <section class="mx-auto max-w-5xl px-6 pt-16 pb-12 text-center">
-    <p class="font-heading text-sm tracking-wide text-teal uppercase mb-3">Merhaba, biz TaleBerry'iz</p>
+    <p class="font-heading text-sm tracking-wide text-teal uppercase mb-3">Hi, we're TaleBerry</p>
     <h1 class="font-heading text-4xl sm:text-5xl font-700 leading-tight text-ink">
-      Çocukların duygularını anlamasına<br class="hidden sm:block" /> yardımcı olan hikaye kitapları
+      Storybooks that help kids<br class="hidden sm:block" /> understand their feelings
     </h1>
     <p class="mt-5 text-lg text-ink-soft max-w-2xl mx-auto">
-      Öfke yönetiminden sakinleşme köşesi aktivitelerine, uyku öncesi kaygılardan güvenli
-      iletişime — her TaleBerry kitabı bir duyguyu, çocukların anlayacağı sıcacık bir hikayeyle anlatır.
+      From anger management to calm corner activities, from bedtime worries to safe
+      communication — every TaleBerry book turns one feeling into a warm story kids can understand.
     </p>
   </section>
 
   <section class="mx-auto max-w-5xl px-6 pb-20">
     {items.length === 0 ? (
       <div class="rounded-3xl border border-line bg-cream-2 px-8 py-16 text-center">
-        <p class="font-heading text-2xl text-coral-dark mb-2">İlk kitabımız çok yakında burada! 🌟</p>
-        <p class="text-ink-soft">Hazırlıklar sürüyor — ilk kitabımız yayınlanır yayınlanmaz burada göreceksin.</p>
+        <p class="font-heading text-2xl text-coral-dark mb-2">Our first book is coming very soon! 🌟</p>
+        <p class="text-ink-soft">We're putting the finishing touches on it — you'll see it here the moment it's live.</p>
       </div>
     ) : (
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
