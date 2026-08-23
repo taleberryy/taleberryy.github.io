@@ -1,0 +1,66 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import { getCollection, render } from "astro:content";
+import products from "../../../data/products.json";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+  return posts.map((post) => ({
+    params: { id: post.id },
+    props: { post },
+  }));
+}
+
+interface Product {
+  id: string;
+  name: string;
+  formattedPrice: string;
+  url: string;
+  coverImage?: string;
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const relatedProduct = post.data.relatedProduct
+  ? (products as Product[]).find((p) => p.id === post.data.relatedProduct)
+  : undefined;
+---
+
+<Layout title={post.data.title} description={post.data.description}>
+  <article class="mx-auto max-w-2xl px-6 pt-16 pb-20">
+    <p class="text-xs text-ink-soft">
+      {post.data.pubDate.toLocaleDateString("tr-TR", { year: "numeric", month: "long", day: "numeric" })}
+    </p>
+    <h1 class="font-heading text-3xl sm:text-4xl font-700 text-ink mt-2">{post.data.title}</h1>
+
+    {post.data.tags.length > 0 && (
+      <div class="flex flex-wrap gap-2 mt-4">
+        {post.data.tags.map((tag) => (
+          <span class="text-xs rounded-full bg-cream-2 text-coral-dark px-3 py-1 font-600">{tag}</span>
+        ))}
+      </div>
+    )}
+
+    {relatedProduct && (
+      <a
+        href={relatedProduct.url}
+        target="_blank"
+        rel="noreferrer"
+        class="mt-8 flex items-center gap-4 rounded-2xl border border-line bg-cream-2 p-4 hover:shadow-md transition-shadow"
+      >
+        {relatedProduct.coverImage && (
+          <img src={relatedProduct.coverImage} alt={relatedProduct.name} class="w-16 h-20 object-cover rounded-lg" />
+        )}
+        <div>
+          <p class="text-xs text-ink-soft">Bu yazının ilham kaynağı</p>
+          <p class="font-heading text-ink">{relatedProduct.name}</p>
+          <p class="text-coral-dark font-700 text-sm">{relatedProduct.formattedPrice} — hemen incele →</p>
+        </div>
+      </a>
+    )}
+
+    <div class="prose prose-headings:font-heading prose-a:text-coral-dark max-w-none mt-8">
+      <Content />
+    </div>
+  </article>
+</Layout>

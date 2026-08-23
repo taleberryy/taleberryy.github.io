@@ -1,0 +1,40 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("blog")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<Layout title="Blog" description="Çocuk gelişimi, duygu yönetimi ve TaleBerry kitapları üzerine yazılar.">
+  <section class="mx-auto max-w-3xl px-6 pt-16 pb-8">
+    <p class="font-heading text-sm tracking-wide text-teal uppercase mb-3">Blog</p>
+    <h1 class="font-heading text-4xl font-700 text-ink">Ebeveynler ve meraklı küçükler için yazılar</h1>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-6 pb-20">
+    {posts.length === 0 ? (
+      <p class="text-ink-soft">Henüz yazı yok — çok yakında burada olacak.</p>
+    ) : (
+      <ul class="space-y-6">
+        {posts.map((post) => (
+          <li>
+            <a href={`/blog/${post.id}/`} class="block rounded-2xl border border-line bg-white p-6 hover:shadow-md transition-shadow">
+              <p class="text-xs text-ink-soft">{post.data.pubDate.toLocaleDateString("tr-TR", { year: "numeric", month: "long", day: "numeric" })}</p>
+              <h2 class="font-heading text-xl text-ink mt-1">{post.data.title}</h2>
+              <p class="text-ink-soft mt-2">{post.data.description}</p>
+              {post.data.tags.length > 0 && (
+                <div class="flex flex-wrap gap-2 mt-3">
+                  {post.data.tags.map((tag) => (
+                    <span class="text-xs rounded-full bg-cream-2 text-coral-dark px-3 py-1 font-600">{tag}</span>
+                  ))}
+                </div>
+              )}
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+  </section>
+</Layout>
