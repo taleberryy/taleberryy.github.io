@@ -30,6 +30,15 @@ const siteName = "TaleBerry";
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L8PB6S3HV7"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag("js", new Date());
+      gtag("config", "G-L8PB6S3HV7");
+    </script>
   </head>
   <body class="flex min-h-screen flex-col">
     <header class="border-b border-line bg-cream/90 backdrop-blur sticky top-0 z-40">
